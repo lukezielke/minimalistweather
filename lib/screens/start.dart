@@ -10,6 +10,8 @@ import 'package:MinimalWeather/models/city.dart';
 import 'package:MinimalWeather/methods/get_city.dart';
 import 'package:MinimalWeather/models/hourly_weather.dart';
 
+import '../animations/widget_dot_fade.dart';
+
 class Start extends StatefulWidget {
   const Start({super.key});
 
@@ -66,7 +68,7 @@ class _StartState extends State<Start> {
                     return Text('${snapshot.error}');
                   }
                   // By default, show a loading spinner.
-                  return const CircularProgressIndicator();
+                  return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                 },
               ),
             ),
@@ -96,7 +98,7 @@ class _StartState extends State<Start> {
                         return Text('${snapshot.error}');
                       }
                       // By default, show a loading spinner.
-                      return const CircularProgressIndicator();
+                      return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                     },
                   ),
                 ),
@@ -124,7 +126,7 @@ class _StartState extends State<Start> {
                       return Text('${snapshot.error}');
                     }
                     // By default, show a loading spinner.
-                    return const CircularProgressIndicator();
+                    return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                   },
                 ),
               ),
@@ -155,7 +157,7 @@ class _StartState extends State<Start> {
                         return Text('${snapshot.error}');
                       }
                       // By default, show a loading spinner.
-                      return const CircularProgressIndicator();
+                      return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                     }),
               ),
             ),

@@ -5,6 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:MinimalWeather/methods/get_daily_data.dart';
 
+import '../animations/widget_dot_fade.dart';
 import '../methods/get_hourly_data.dart';
 import '../methods/convert_weathercode.dart';
 import '../models/hourly_weather.dart';
@@ -104,7 +105,7 @@ class _DetailsState extends State<Details> {
                         return Text('${snapshot.error}');
                       }
                       // By default, show a loading spinner.
-                      return const CircularProgressIndicator();
+                      return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                     },
                   )),
             ),
@@ -161,7 +162,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -188,7 +189,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -212,7 +213,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -235,7 +236,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -277,7 +278,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -305,7 +306,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -331,7 +332,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -355,7 +356,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -397,7 +398,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -425,7 +426,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -451,7 +452,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -475,7 +476,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -517,7 +518,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -545,7 +546,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -571,7 +572,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -595,7 +596,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -637,7 +638,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -665,7 +666,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -691,7 +692,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -715,7 +716,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -757,7 +758,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -785,7 +786,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -811,7 +812,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -835,7 +836,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -877,7 +878,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -905,7 +906,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -931,7 +932,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -955,7 +956,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -997,7 +998,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -1025,7 +1026,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -1051,7 +1052,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -1075,7 +1076,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -1117,7 +1118,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -1145,7 +1146,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -1171,7 +1172,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -1195,7 +1196,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -1237,7 +1238,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -1265,7 +1266,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -1291,7 +1292,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -1315,7 +1316,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -1357,7 +1358,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -1385,7 +1386,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -1411,7 +1412,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -1435,7 +1436,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -1477,7 +1478,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -1505,7 +1506,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -1531,7 +1532,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -1555,7 +1556,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -1597,7 +1598,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -1625,7 +1626,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -1651,7 +1652,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -1675,7 +1676,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -1717,7 +1718,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -1745,7 +1746,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -1771,7 +1772,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -1795,7 +1796,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -1837,7 +1838,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -1865,7 +1866,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -1891,7 +1892,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -1915,7 +1916,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -1957,7 +1958,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -1985,7 +1986,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -2011,7 +2012,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -2035,7 +2036,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -2077,7 +2078,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -2105,7 +2106,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -2131,7 +2132,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -2155,7 +2156,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -2197,7 +2198,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -2225,7 +2226,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -2251,7 +2252,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -2275,7 +2276,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -2317,7 +2318,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -2345,7 +2346,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -2371,7 +2372,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -2395,7 +2396,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -2437,7 +2438,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -2465,7 +2466,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -2491,7 +2492,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -2515,7 +2516,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -2557,7 +2558,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -2585,7 +2586,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -2611,7 +2612,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -2635,7 +2636,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -2677,7 +2678,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -2705,7 +2706,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -2731,7 +2732,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -2755,7 +2756,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -2797,7 +2798,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -2825,7 +2826,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -2851,7 +2852,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -2875,7 +2876,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -2917,7 +2918,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         Align(
@@ -2945,7 +2946,7 @@ class _DetailsState extends State<Details> {
                                 return Text('${snapshot.error}');
                               }
                               // By default, show a loading spinner.
-                              return const CircularProgressIndicator();
+                              return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                             },
                           ),
                         ),
@@ -2971,7 +2972,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                         FutureBuilder<WeatherHourly>(
@@ -2995,7 +2996,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ],
@@ -3110,7 +3111,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ),
@@ -3136,7 +3137,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ),
@@ -3162,7 +3163,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ),
@@ -3188,7 +3189,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ),
@@ -3213,7 +3214,7 @@ class _DetailsState extends State<Details> {
                               return Text('${snapshot.error}');
                             }
                             // By default, show a loading spinner.
-                            return const CircularProgressIndicator();
+                            return WidgetDotFade(color: Colors.lightBlue[300], size: 20.0);
                           },
                         ),
                       ),

@@ -4,7 +4,7 @@
             "outputFile": "org.luke.weather.app-mergeDebugResources-12:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/luke/Desktop/weather_stable/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/luke/Desktop/minimalist_weather/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

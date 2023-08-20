@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.luke.weather"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:33:5-67
+11-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:33:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:34:5-79
+12-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:34:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:35:5-81
+13-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:35:22-78
+14
+15    <permission
+15-->[androidx.core:core:1.9.0] /home/luke/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+16        android:name="org.luke.weather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+16-->[androidx.core:core:1.9.0] /home/luke/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+17        android:protectionLevel="signature" />
+17-->[androidx.core:core:1.9.0] /home/luke/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+18
+19    <uses-permission android:name="org.luke.weather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+19-->[androidx.core:core:1.9.0] /home/luke/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+19-->[androidx.core:core:1.9.0] /home/luke/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+20
+21    <application
+22        android:name="android.app.Application"
+22-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:4:9-42
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] /home/luke/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:5:9-43
+25        android:label="Minimal Weather" >
+25-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:3:9-40
+26        <activity
+26-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:6:9-26:20
+27            android:name="org.luke.weather.MainActivity"
+27-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:7:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:11:13-163
+29            android:exported="true"
+29-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:8:13-36
+30            android:hardwareAccelerated="true"
+30-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:12:13-47
+31            android:launchMode="singleTop"
+31-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:9:13-43
+32            android:theme="@style/LaunchTheme"
+32-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:10:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:13:13-55
+34
+35            <!--
+36                 Specifies an Android theme to apply to this Activity as soon as
+37                 the Android process has started. This theme is visible to the user
+38                 while the Flutter UI initializes. After that, this theme continues
+39                 to determine the Window background behind the Flutter UI.
+40            -->
+41            <meta-data
+41-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:18:13-21:17
+42                android:name="io.flutter.embedding.android.NormalTheme"
+42-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:19:15-70
+43                android:resource="@style/NormalTheme" />
+43-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:20:15-52
+44
+45            <intent-filter>
+45-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:22:13-25:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:23:17-68
+46-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:23:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:24:17-76
+48-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:24:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:29:9-31:33
+56            android:name="flutterEmbedding"
+56-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:30:13-44
+57            android:value="2" />
+57-->/home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidManifest.xml:31:13-30
+58
+59        <service
+59-->[:geolocator_android] /home/luke/Desktop/minimalist_weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+60            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+60-->[:geolocator_android] /home/luke/Desktop/minimalist_weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+61            android:enabled="true"
+61-->[:geolocator_android] /home/luke/Desktop/minimalist_weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+62            android:exported="false"
+62-->[:geolocator_android] /home/luke/Desktop/minimalist_weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+63            android:foregroundServiceType="location" />
+63-->[:geolocator_android] /home/luke/Desktop/minimalist_weather/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+64
+65        <uses-library
+65-->[androidx.window:window:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+66            android:name="androidx.window.extensions"
+66-->[androidx.window:window:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+67            android:required="false" />
+67-->[androidx.window:window:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+68        <uses-library
+68-->[androidx.window:window:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+69            android:name="androidx.window.sidecar"
+69-->[androidx.window:window:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+70            android:required="false" />
+70-->[androidx.window:window:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:18.1.0] /home/luke/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:18.1.0] /home/luke/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:18.1.0] /home/luke/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:18.1.0] /home/luke/.gradle/caches/transforms-3/781e5567158e59d38ee2b89930f9808b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:18.1.0] /home/luke/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:18.1.0] /home/luke/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:18.1.0] /home/luke/.gradle/caches/transforms-3/58aa1384bde170d075503b845cfcf44c/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+80    </application>
+81
+82</manifest>

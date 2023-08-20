@@ -4,6 +4,25 @@
             "outputFile": "org.luke.weather.app-mergeDebugResources-12:/values/values.xml",
             "map": [
                 {
+                    "source": "/home/luke/Desktop/minimalist_weather/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,818",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "476,982"
+                    },
+                    "to": {
+                        "startLines": "121,125",
+                        "startColumns": "4,4",
+                        "startOffsets": "8627,8808",
+                        "endLines": "124,127",
+                        "endColumns": "12,12",
+                        "endOffsets": "8803,8972"
+                    }
+                },
+                {
                     "source": "/home/luke/.gradle/caches/transforms-3/c2aff38445ebad8ddeaa989ecf50f56e/transformed/core-1.9.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,89,90,94,95,96,97,103,113,146,167,200",
@@ -92,25 +111,6 @@
                         "endLines": "7,8,9,10,80,146,150,299,311,319",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "339,399,451,496,5108,10064,10195,14974,15414,15723"
-                    }
-                },
-                {
-                    "source": "/home/luke/Desktop/weather_stable/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,818",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "476,982"
-                    },
-                    "to": {
-                        "startLines": "121,125",
-                        "startColumns": "4,4",
-                        "startOffsets": "8627,8808",
-                        "endLines": "124,127",
-                        "endColumns": "12,12",
-                        "endOffsets": "8803,8972"
                     }
                 }
             ]

@@ -1,4 +1,4 @@
-#Thu Aug 17 16:53:55 CEST 2023
-base.0=/home/luke/Desktop/weather_stable/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Sun Aug 20 21:48:56 CEST 2023
+base.0=/home/luke/Desktop/minimalist_weather/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

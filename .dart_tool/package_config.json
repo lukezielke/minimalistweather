@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "archive",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/archive-3.4.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "args",
       "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/args-2.4.2",
       "packageUri": "lib/",
@@ -33,13 +39,25 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/collection-1.17.1",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/collection-1.17.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "convert",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/convert-3.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "crypto",
       "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/crypto-3.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
+      "name": "csslib",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/csslib-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -72,6 +90,12 @@
       "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/flutter_lints-2.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "flutter_native_splash",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/flutter_native_splash-2.3.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "flutter_svg",
@@ -158,6 +182,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "html",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/html-0.15.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "http",
       "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/http-1.1.0",
       "packageUri": "lib/",
@@ -168,6 +198,12 @@
       "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "image",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/image-4.1.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
     },
     {
       "name": "intl",
@@ -189,15 +225,15 @@
     },
     {
       "name": "matcher",
-      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/matcher-0.12.15",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/matcher-0.12.16",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/material_color_utilities-0.2.0",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
       "packageUri": "lib/",
-      "languageVersion": "2.13"
+      "languageVersion": "2.17"
     },
     {
       "name": "meta",
@@ -272,6 +308,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "pointycastle",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/pointycastle-3.7.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///opt/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -279,9 +321,9 @@
     },
     {
       "name": "source_span",
-      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/source_span-1.9.1",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/source_span-1.10.0",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.18"
     },
     {
       "name": "stack_trace",
@@ -309,13 +351,19 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/test_api-0.5.1",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/test_api-0.6.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "typed_data",
       "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "universal_io",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/universal_io-2.2.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -350,6 +398,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "web",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/web-0.1.4-beta",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "win32",
       "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/win32-5.0.6",
       "packageUri": "lib/",
@@ -368,13 +422,19 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "yaml",
+      "rootUri": "file:///home/luke/.pub-cache/hosted/pub.dev/yaml-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
+    },
+    {
       "name": "MinimalWeather",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-08-17T14:47:13.275295Z",
+  "generated": "2023-10-31T14:27:14.010569Z",
   "generator": "pub",
-  "generatorVersion": "3.0.6"
+  "generatorVersion": "3.1.3"
 }

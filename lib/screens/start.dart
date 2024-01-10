@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -26,8 +27,14 @@ class _StartState extends State<Start> {
   @override
   void initState() {
     super.initState();
+    initialization();
+  }
+
+
+  void initialization() async {
     futureCity = GetCity().getCity();
     futureWeatherHourly = GetHourly().getHourlyData();
+    FlutterNativeSplash.remove();
   }
 
   @override

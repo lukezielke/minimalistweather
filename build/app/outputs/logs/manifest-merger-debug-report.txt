@@ -30,6 +30,7 @@ MERGED from /home/luke/Desktop/minimalist_weather/android/app/src/main/AndroidMa
 MERGED from [:geolocator_android] /home/luke/Desktop/minimalist_weather/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:geocoding_android] /home/luke/Desktop/minimalist_weather/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:path_provider_android] /home/luke/Desktop/minimalist_weather/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_native_splash] /home/luke/Desktop/minimalist_weather/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/luke/.gradle/caches/transforms-3/66c25f7227d4a9bf84bb0cdd4caeff37/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
@@ -92,6 +93,8 @@ MERGED from [:geocoding_android] /home/luke/Desktop/minimalist_weather/build/geo
 MERGED from [:geocoding_android] /home/luke/Desktop/minimalist_weather/build/geocoding_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /home/luke/Desktop/minimalist_weather/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /home/luke/Desktop/minimalist_weather/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /home/luke/Desktop/minimalist_weather/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /home/luke/Desktop/minimalist_weather/build/flutter_native_splash/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/ae81e06d24c799147c26814497a2a305/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /home/luke/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
